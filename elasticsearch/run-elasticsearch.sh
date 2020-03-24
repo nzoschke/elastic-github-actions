@@ -37,8 +37,8 @@ docker run \
   --network elastic \
   --rm \
   appropriate/curl \
-  --max-time 120 \
-  --retry 120 \
+  --max-time 360 \
+  --retry 360 \
   --retry-delay 1 \
   --retry-connrefused \
   --show-error \
