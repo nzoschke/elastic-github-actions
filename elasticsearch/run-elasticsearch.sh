@@ -17,8 +17,6 @@ do
     --rm \
     --env "node.name=es${node}" \
     --env "cluster.name=docker-elasticsearch" \
-    --env "cluster.initial_master_nodes=es1" \
-    --env "discovery.seed_hosts=es1" \
     --env "cluster.routing.allocation.disk.threshold_enabled=false" \
     --env "bootstrap.memory_lock=true" \
     --env "ES_JAVA_OPTS=-Xms1g -Xmx1g" \
